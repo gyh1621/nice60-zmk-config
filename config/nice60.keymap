@@ -74,42 +74,42 @@
             label = "LEFT_H";
             #binding-cells = <0>;
             bindings = <&kp H>, <&kp LEFT>;
-            mods = <(MOD_LCTRL)>;
+            mods = <MOD_LCTRL>;
         };
 		arrowj: downJ {
             compatible = "zmk,behavior-mod-morph";
             label = "DOWN_J";
             #binding-cells = <0>;
             bindings = <&kp J>, <&kp DOWN>;
-            mods = <(MOD_LCTRL)>;
+            mods = <MOD_LCTRL>;
         };
 		arrowk: upK {
             compatible = "zmk,behavior-mod-morph";
             label = "UP_K";
             #binding-cells = <0>;
             bindings = <&kp K>, <&kp UP>;
-            mods = <(MOD_LCTRL)>;
+            mods = <MOD_LCTRL>;
         };
 		arrowl: rightL {
             compatible = "zmk,behavior-mod-morph";
             label = "RIGHT_L";
             #binding-cells = <0>;
             bindings = <&kp L>, <&kp RIGHT>;
-            mods = <(MOD_LCTRL)>;
+            mods = <MOD_LCTRL>;
         };
 		backspaceb: backspaceB {
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_B";
             #binding-cells = <0>;
             bindings = <&kp B>, <&kp BSPC>;
-            mods = <(MOD_LCTRL)>;
+            mods = <MOD_LCTRL>;
         };
 		entersemi: entersemi {
             compatible = "zmk,behavior-mod-morph";
             label = "ENTER_SEMI";
             #binding-cells = <0>;
             bindings = <&kp SEMI>, <&kp BSLH>;
-            mods = <(MOD_LCTRL)>;
+            mods = <MOD_LCTRL>;
         };
     };
 };
